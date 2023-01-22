@@ -1,0 +1,32 @@
+:root {
+  --color-primary: #4f46ba;
+  --background-primary: #fafaff;
+  --text-primary: #fafaff;
+  --border-primary: #e1e4eb;
+
+  /* searchbar start  */
+  --searchbar_background: #f0f0f0;
+  --searchbar_icon: #9e9fa3;
+  --searchbar_placeholder_color: #9e9fa3;
+
+  /* sort start  */
+  --sort-text-color: var(--text-primary);
+  --sort_item_border: var(--border-primary);
+  --sort_item_border_active: var(--color-primary);
+  --sort_item_active_background: var(--color-primary);
+
+  /* analytics start  */
+  --analytics_card_background: var(--color-primary);
+  --analytics_card_text_color: var(--text-primary);
+
+  /* books start  */
+  --books_price_text_color: #f97a06;
+  --books_discount_border_color: var(--books_price_text_color);
+
+  /* accordionTable start  */
+  --accordionTable_header_background: var(--color-primary);
+  --accordionTable_header_text_color: var(--text-primary);
+  --accordionTable_row_header_background: #FAFAFA;
+  --accordionTable_row_panel_background: #f5f5f5;
+  --accordionTable_row_date_color: #444444;
+}
